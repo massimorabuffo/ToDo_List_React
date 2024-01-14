@@ -1,8 +1,4 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a simple React exercise. You can add things to do to the list, complete it by clicking on the checkbox, switch through the completed, the active ones and all. Finally, you can search it by name.
+The CSS style for this project is really basic, I just tried by abilities with Raect logic: the useState and useEffect hooks, the Raect rendering logic, conditional rendering for effectively style some elements only when wanted, and more.
