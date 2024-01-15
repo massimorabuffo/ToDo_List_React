@@ -110,8 +110,8 @@ function App() {
       <div className='container'>
         <h1>THINGS TO DO</h1>
         <div className='input_container'>
-          <input type="text" placeholder='Add New' value={todo} onChange={e => setToDo(e.target.value)}/>
-          <button onClick={() => handleAddToDo()}>Add to list</button>
+          <input disabled={renderedArray === completedTodos || renderedArray === todos} type="text" placeholder={renderedArray === completedTodos || renderedArray === todos ? 'Switch to "Active" to add a todo!' : 'Add New'} value={todo} onChange={e => setToDo(e.target.value)}/>
+          <button disabled={renderedArray === completedTodos || renderedArray === todos} onClick={() => handleAddToDo()}>Add to list</button>
           <button onClick={() => handleDeleteAll()}>Delete All</button>
         </div>
         <div className='todos_container'>
